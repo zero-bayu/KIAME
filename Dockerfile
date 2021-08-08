@@ -4,7 +4,7 @@ FROM python:3
 
 # Allow statements and log messages to immediately appear in the Knative logs
 ENV PYTHONUNBUFFERED True
-ENV http_proxy "http://192.168.33.10:3128"
+ENV http_proxy "http://50.206.25.111:80"
 
 # Copy local code to the container image.
 ENV APP_HOME /app
